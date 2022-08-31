@@ -1,0 +1,20 @@
+.square{
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    background: azure;
+    border: 2px solid black;
+}
+div#game{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+}
+.turn{
+    font-size: 30px;
+}
